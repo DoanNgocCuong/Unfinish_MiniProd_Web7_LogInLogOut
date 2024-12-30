@@ -7,7 +7,7 @@ services:
       args:
         - REACT_APP_API_URL=https://ai-tools-api.hacknao.edu.vn/api
     ports:
-      - "3009:80"
+      - "25042:80"
     environment:
       - NODE_ENV=production
       - REACT_APP_API_URL=https://ai-tools-api.hacknao.edu.vn/api
@@ -22,7 +22,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "5008:5008"
+      - "25041:5008"
     environment:
       FLASK_ENV: production
       FLASK_APP: run.py

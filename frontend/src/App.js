@@ -36,23 +36,8 @@ const theme = extendTheme({
 
 // Add this protected route component
 const ProtectedRoute = ({ children }) => {
-  const user = localStorage.getItem('user');  // Or however you store your user data
-  
-  if (!user) {
-    return <Navigate to="/" replace />;
-  }
-
-  return children;
-};
-
-const PrivateRoute = ({ children }) => {
-  const user = localStorage.getItem('user');  // Or however you store your user data
-  
-  if (!user) {
-    return <Navigate to="/" replace />;
-  }
-
-  return children;
+  const user = localStorage.getItem('user');
+  return user ? children : <Navigate to="/login" replace />;
 };
 
 function App() {
