@@ -11,11 +11,8 @@ source venv/bin/activate
 # Install requirements if they haven't been installed
 pip install -r requirements.txt
 
-# Check if .env file exists
-if [ ! -f ".env" ]; then
-    echo "Error: .env file not found in backend directory"
-    exit 1
-fi
+# Copy .env.development to .env for development environment
+cp .env.development .env
 
 # Run the application
 python run.py
