@@ -1,0 +1,76 @@
+{
+  "welcome": {
+    "title": "Cổng Thông Tin Nội Bộ",
+    "description": "Truy cập tất cả công cụ và tài nguyên công ty tại một nơi"
+  },
+  "footer": {
+    "about": {
+      "title": "Giới Thiệu",
+      "description": "Cổng thông tin nội bộ - nơi tập trung mọi công cụ và tài nguyên của công ty."
+    },
+    "contact": {
+      "title": "Hỗ Trợ CNTT",
+      "email": "Email: hotro@congty.com",
+      "phone": "Đường dây nóng: (024) 123-4567",
+      "hours": "Giờ làm việc: T2-T6 8:00-17:00"
+    },
+    "copyright": "© {{year}} Step Up. Đã đăng ký bản quyền."
+  },
+  "departments": {
+    "title": "Công Cụ Theo Phòng Ban",
+    "hr": {
+      "title": "Nhân Sự",
+      "tools": {
+        "portal": "Cổng Thông Tin Nhân Viên",
+        "recruitment": "Hệ Thống Tuyển Dụng",
+        "leave": "Quản Lý Nghỉ Phép",
+        "payroll": "Hệ Thống Lương"
+      }
+    },
+    "it": {
+      "title": "CNTT",
+      "tools": {
+        "helpdesk": "Hệ Thống Hỗ Trợ",
+        "asset": "Quản Lý Tài Sản",
+        "network": "Giám Sát Mạng",
+        "security": "Công Cụ Bảo Mật"
+      }
+    },
+    "finance": {
+      "title": "Tài Chính",
+      "tools": {
+        "accounting": "Phần Mềm Kế Toán",
+        "expense": "Quản Lý Chi Phí",
+        "budget": "Lập Ngân Sách",
+        "invoice": "Hệ Thống Hóa Đơn"
+      }
+    },
+    "marketing": {
+      "title": "Marketing",
+      "tools": {
+        "social": "Mạng Xã Hội",
+        "analytics": "Phân Tích Dữ Liệu",
+        "email": "Email Marketing",
+        "content": "Quản Lý Nội Dung"
+      }
+    },
+    "sales": {
+      "title": "Kinh Doanh",
+      "tools": {
+        "crm": "Hệ Thống CRM",
+        "tracking": "Theo Dõi Bán Hàng",
+        "leads": "Quản Lý Khách Hàng",
+        "quote": "Tạo Báo Giá"
+      }
+    },
+    "operations": {
+      "title": "Vận Hành",
+      "tools": {
+        "project": "Quản Lý Dự Án",
+        "inventory": "Quản Lý Kho",
+        "quality": "Kiểm Soát Chất Lượng",
+        "automation": "Tự Động Hóa"
+      }
+    }
+  }
+}

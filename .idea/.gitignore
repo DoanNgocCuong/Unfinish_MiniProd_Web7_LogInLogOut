@@ -1,0 +1,78 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.whl
+*.venv/
+.venv/
+/venv/
+
+# JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# C
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.a
+*.dylib
+
+# General
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+.env
+.env.local
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+

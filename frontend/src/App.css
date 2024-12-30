@@ -1,0 +1,37 @@
+.App {
+  composes: container from './styles/theme.css';
+}
+
+.user-card {
+  composes: card from './styles/theme.css';
+}
+
+.user-avatar {
+  composes: avatar from './styles/theme.css';
+}
+
+.user-email {
+  color: var(--text-secondary);
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.user-role {
+  composes: tag from './styles/theme.css';
+}
+
+.users-grid {
+  composes: grid from './styles/theme.css';
+}
+
+.features-section {
+  composes: section from './styles/theme.css';
+}
+
+.features-section li {
+  composes: card from './styles/theme.css';
+}
+
+a {
+  composes: link from './styles/theme.css';
+}

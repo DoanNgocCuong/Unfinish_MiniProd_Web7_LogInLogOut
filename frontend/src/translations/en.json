@@ -1,0 +1,76 @@
+{
+  "welcome": {
+    "title": "Internal Tools Portal",
+    "description": "Access all company tools and resources in one place"
+  },
+  "footer": {
+    "about": {
+      "title": "About",
+      "description": "Internal portal - your central hub for all company tools and resources."
+    },
+    "contact": {
+      "title": "IT Support",
+      "email": "Email: support@company.com",
+      "phone": "Hotline: (024) 123-4567",
+      "hours": "Hours: Mon-Fri 8:00-17:00"
+    },
+    "copyright": "© {{year}} Step Up. All rights reserved."
+  },
+  "departments": {
+    "title": "Department Tools",
+    "hr": {
+      "title": "HR",
+      "tools": {
+        "portal": "Employee Portal",
+        "recruitment": "Recruitment System",
+        "leave": "Leave Management",
+        "payroll": "Payroll System"
+      }
+    },
+    "it": {
+      "title": "IT",
+      "tools": {
+        "helpdesk": "Help Desk",
+        "asset": "Asset Management",
+        "network": "Network Monitoring",
+        "security": "Security Tools"
+      }
+    },
+    "finance": {
+      "title": "Finance",
+      "tools": {
+        "accounting": "Accounting Software",
+        "expense": "Expense Management",
+        "budget": "Budget Planning",
+        "invoice": "Invoice System"
+      }
+    },
+    "marketing": {
+      "title": "Marketing",
+      "tools": {
+        "social": "Social Media",
+        "analytics": "Analytics Platform",
+        "email": "Email Marketing",
+        "content": "Content Management"
+      }
+    },
+    "sales": {
+      "title": "Sales",
+      "tools": {
+        "crm": "CRM System",
+        "tracking": "Sales Tracking",
+        "leads": "Lead Management",
+        "quote": "Quote Generator"
+      }
+    },
+    "operations": {
+      "title": "Operations",
+      "tools": {
+        "project": "Project Management",
+        "inventory": "Inventory System",
+        "quality": "Quality Control",
+        "automation": "Process Automation"
+      }
+    }
+  }
+}
