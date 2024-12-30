@@ -144,17 +144,13 @@ function App() {
             </div>
           </Header>
           <Routes>
+            <Route path="/" element={<Home message={message} t={t} users={users} departments={departments} />} />
             <Route 
-              path="/" 
+              path="/tools/*" 
               element={
-                <Home 
-                  message={message} 
-                  t={t} 
-                  users={users} 
-                  departments={departments} 
-                >
+                <ProtectedRoute>
                   <ToolsGrid />
-                </Home>
+                </ProtectedRoute>
               } 
             />
             <Route 

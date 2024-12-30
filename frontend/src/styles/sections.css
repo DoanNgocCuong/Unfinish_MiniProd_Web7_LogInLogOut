@@ -693,3 +693,26 @@ Main content container
     grid-template-columns: 1fr; /* 1 cột trên mobile */
   }
 }
+
+.tool-card.locked {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.tool-image-container.blur img {
+  filter: blur(4px);
+}
+
+.lock-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.lock-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}

@@ -1,7 +1,27 @@
 import React from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaLock } from "react-icons/fa";
 
 const ToolCard = ({ tool }) => {
+  const user = localStorage.getItem('user');
+
+  if (!user) {
+    return (
+      <div className="tool-card locked">
+        <div className="tool-image-container blur">
+          <img src={tool.image} alt={tool.name} className="tool-image" />
+          <div className="lock-overlay">
+            <FaLock className="lock-icon" />
+            <p>Login required</p>
+          </div>
+        </div>
+        <div className="tool-content">
+          <h3 className="tool-name">{tool.name}</h3>
+          <p className="tool-description">Please login to access this tool</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <a
       href={tool.link}

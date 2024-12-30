@@ -2,6 +2,7 @@ import React from 'react';
 import ToolsGrid from '../../components/tools/ToolsGrid';
 
 const Home = ({ message, t, users, departments }) => {
+    const user = localStorage.getItem('user');
 
     return (
         <main className="main-content">
@@ -15,12 +16,14 @@ const Home = ({ message, t, users, departments }) => {
                 </p>
             </section>
 
-            {/* Tools Grid section */}
-            <section className="tools-section">
-                <h2 className="highlight-title">{t('tools.title')}</h2>
-                <p className="section-description">{t('tools.description')}</p>
-                <ToolsGrid />
-            </section>
+            {/* Tools Grid section - chỉ hiện khi đã đăng nhập */}
+            {user && (
+                <section className="tools-section">
+                    <h2 className="highlight-title">{t('tools.title')}</h2>
+                    <p className="section-description">{t('tools.description')}</p>
+                    <ToolsGrid />
+                </section>
+            )}
 
             {/* Key benefits section */}
             <section className="departments-section">
