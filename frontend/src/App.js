@@ -15,6 +15,7 @@ import { extendTheme } from '@chakra-ui/react';
 import OnionWorld from './pages/OnionWorld';
 import QCTTS from './pages/QCTTS';
 import AudioStream from './pages/AudioStream';
+import ToolsGrid from './components/tools/ToolsGrid';
 
 // Define the theme configuration
 const config = {
@@ -143,7 +144,19 @@ function App() {
             </div>
           </Header>
           <Routes>
-            <Route path="/" element={<Home message={message} t={t} users={users} departments={departments} />} />
+            <Route 
+              path="/" 
+              element={
+                <Home 
+                  message={message} 
+                  t={t} 
+                  users={users} 
+                  departments={departments} 
+                >
+                  <ToolsGrid />
+                </Home>
+              } 
+            />
             <Route 
               path="/build-conversation" 
               element={

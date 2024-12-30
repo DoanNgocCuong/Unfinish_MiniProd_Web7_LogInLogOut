@@ -601,3 +601,95 @@ Main content container
 [data-theme='dark'] .button-group button:hover {
   background: var(--dark-card-hover-bg);
 }
+
+.tools-section {
+  margin: 2rem 0;
+  padding: 2rem 0;
+  background: var(--section-bg);
+}
+
+.section-description {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+/* Dark mode support */
+[data-theme='dark'] .tools-section {
+  background: var(--dark-section-bg);
+}
+
+/* Tools Section */
+.tools-container {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột */
+  grid-template-rows: repeat(2, auto);    /* 2 hàng */
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Tool Card */
+.tool-card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Tool Image Container */
+.tool-image-container {
+  height: 120px;  /* Giảm chiều cao của ảnh */
+  position: relative;
+}
+
+.tool-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tool Content */
+.tool-content {
+  padding: 1rem;
+}
+
+.tool-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.tool-description {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cột trên tablet */
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tools-grid {
+    grid-template-columns: 1fr; /* 1 cột trên mobile */
+  }
+}

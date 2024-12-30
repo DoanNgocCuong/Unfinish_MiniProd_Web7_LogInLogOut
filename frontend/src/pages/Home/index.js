@@ -1,3 +1,6 @@
+import React from 'react';
+import ToolsGrid from '../../components/tools/ToolsGrid';
+
 const Home = ({ message, t, users, departments }) => {
 
     return (
@@ -10,6 +13,13 @@ const Home = ({ message, t, users, departments }) => {
                 <p className="hero-description">
                     {t('welcome.description')}
                 </p>
+            </section>
+
+            {/* Tools Grid section */}
+            <section className="tools-section">
+                <h2 className="highlight-title">{t('tools.title')}</h2>
+                <p className="section-description">{t('tools.description')}</p>
+                <ToolsGrid />
             </section>
 
             {/* Key benefits section */}

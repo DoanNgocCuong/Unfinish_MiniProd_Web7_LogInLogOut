@@ -10,7 +10,7 @@
     },
     "contact": {
       "title": "Hỗ Trợ CNTT",
-      "email": "Email: hotro@congty.com",
+      "email": "Email: cuongmkmtpgoldfinch@gmail.com",
       "phone": "Đường dây nóng: (024) 123-4567",
       "hours": "Giờ làm việc: T2-T6 8:00-17:00"
     },
@@ -71,6 +71,15 @@
         "quality": "Kiểm Soát Chất Lượng",
         "automation": "Tự Động Hóa"
       }
+    }
+  },
+  "tools": {
+    "title": "Công Cụ Phổ Biến",
+    "description": "Các công cụ được sử dụng phổ biến trong công ty",
+    "categories": {
+      "design": "Thiết Kế",
+      "development": "Phát Triển",
+      "collaboration": "Hợp Tác"
     }
   }
 }
